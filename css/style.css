@@ -4,9 +4,9 @@
     box-sizing: border-box;
     scroll-behavior:smooth;
     scroll-margin-top: 60px;
+    font-family: Nunito;
 }
-
-.container{
+.contaner{
     width: 100%;
     min-height: 100vh;
     padding: 10px 8%;
@@ -85,10 +85,14 @@ textarea{
     padding-bottom: 5px;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: Pacifico;
 }
 .header span{
     color: #f54040;
     font-weight: 700;
+    font-family: Nunito;
+    margin-left: 5px;
+
 }
 .header .navmenu{
     align-items: center;
@@ -113,7 +117,7 @@ textarea{
     display: inline-block;
     margin: 10px;
     text-align: center;
-
+    font-family: Nunito;
 }
 .header .navmenu ul li a{
     text-decoration: none;
@@ -156,7 +160,7 @@ textarea{
 .home{
     width: 100%;
     min-height:90vh;
-    background-image: linear-gradient(rgba(130, 127, 155, 0.55),rgba(130, 127, 155, 0.55)), url(../images/home.png);
+    background-image: linear-gradient(rgba(130, 127, 155, 0.35),rgba(130, 127, 155, 0.35)), url(../images/home.png);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -177,7 +181,7 @@ textarea{
     }
 }
 .home .content{
-    margin-top: 13%;
+    margin-top: 10%;
     color: #fff;
     max-width: 400px;
 }
@@ -185,26 +189,24 @@ textarea{
     font-size: 28pt;
     font-weight: 600;
     line-height: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #fff;
-    font-family: Leelawadee;
     text-transform: uppercase;
 
 }
 .home .content p{
     font-weight: lighter;
     font-size: 12pt;
-    margin-bottom:50px;
+    margin-bottom:90px;
     text-align:justify;
     line-height: 25px;
-    font-family: Leelawadee;
 }
 .home .content .btn{
     align-items: center;
     outline: 0;
     border-radius: 50px;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: #ffffff;
     font-weight: 600;
     cursor: pointer;
@@ -212,9 +214,8 @@ textarea{
     font-size: 8pt;
     letter-spacing: 2px;
     margin-right: 10px;
-    font-family: Leelawadee;
     box-shadow:0 0 10px #ffffff;
-    background-color: rgba(130, 127, 155, 0.55);
+    background-color: #f54040;
 }
 .home .content .btn:hover{
     color:#fff;
@@ -243,7 +244,6 @@ textarea{
 .about .container .about-text p{
     color: black;
     font-weight: 400;
-    font-family: Leelawadee;
 }
 .about .container .about-pictures{
     display: block;
@@ -255,13 +255,14 @@ textarea{
 .about .container .about-pictures .image{
     display: flex;
     margin-top: -30px;
-    flex-basis: 50%; 
-    width: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about .container .about-pictures .image1{
     min-height: 50vh;
-    margin: 5px;
+    flex-basis: 50%; 
 }
 .about .container .about-pictures .image2{
     flex-basis: 50%;
@@ -272,17 +273,17 @@ textarea{
     width: 100%;
     min-height: 70%;
     border-radius: 5px;
-    margin-top: -50px;
+    margin-top: -30px;
 }
 .about .container .about-pictures .image .image2 img{
     width: 80%;
-    height: 70vh;
+    height: 60vh;
 }
 .about .container .about-pictures p{
     color: black;
     font-style: italic;
     font-weight: 500;
-    margin-top: -10px;
+    margin-top: 30px;
 }
 /*--------------------------------------
                 SERVICE SECTION
@@ -556,7 +557,7 @@ table tr th .fas{
     font-size: 10pt;
     font-weight: lighter;
     color: #ffffff;
-    font-family: Leelawadee;
+   
 }
 .outdoor-catering .outdoor-second p{
     flex-basis: 100%;
@@ -564,7 +565,7 @@ table tr th .fas{
     font-size: 10pt;
     font-weight: lighter;
     color: #ffffff;
-    font-family: Leelawadee;
+   
 }
 .outdoor-catering .outdoor-second p span{
     color:#f54040;
@@ -679,7 +680,6 @@ table tr th .fas{
     font-size: 8pt;
     letter-spacing: 2px;
     width: 50%;
-    font-family: Leelawadee;
 
 }
 .contact .container .myform .form .row-2 .col-2 .fas{
@@ -725,19 +725,18 @@ table tr th .fas{
     font-size: 11pt;
     font-weight: 500;
     padding: 8px;
-    font-family: Leelawadee;
+    
 }
 .contact .container .myform .form input[type="email"]{
     font-size: 11pt;
     font-weight: 500;
     padding: 8px;
-    font-family: Leelawadee;
+    
 }
 .contact .container .myform .form input[type="tel"]{
     font-size: 11pt;
     font-weight: 500;
     padding: 8px;
-    font-family: Leelawadee;
 }
 select{
     padding:6px;
@@ -766,23 +765,23 @@ option{
 /*------------------------------------
                 FOOTER
 -------------------------------------*/
-.container .footer{
+.main .footer{
     padding: 5px;
     background-image: linear-gradient(rgba(130, 127, 155, 0.55),rgba(130, 127, 155, 0.55)), url(../images/header.png);
 }
-.container .footer .row-one{
+.main .footer .row-one{
     width: 100%;
     display: flex;
     padding: 10px;
     height: 10vh;
 }
-.container .footer .row-one .sitename{
+.main .footer .row-one .sitename{
     flex-basis: 50%;
     margin-top: auto;
     margin-bottom: auto;
     min-height: auto;
 }
-.container .footer .row-one .sitename h6{
+.main .footer .row-one .sitename h6{
     font-size: 16pt;
     color: #ffffff;
     cursor: pointer;
@@ -791,34 +790,36 @@ option{
     margin-top: auto;
     margin-bottom: auto;
     padding: 10px;
+    font-family: Pacifico;
 }
-.container .footer .row-one .sitename h6 span{
+.main .footer .row-one .sitename h6 span{
     color: #f54040;
+    font-family: Nunito;
+
 }
-.container .footer .row-one .socials{
+.main .footer .row-one .socials{
     flex-basis: 50%;
     margin-top: auto;
     margin-bottom: auto;
     min-height: 100%;
-
+    padding: 4px;
 }
-.container .footer .row-one .socials ul{
+.main .footer .row-one .socials ul{
     margin-top: auto;
     margin-bottom: auto;
     text-align: right;
     padding-right: 5px;
 }
-.container .footer .row-one .socials ul li{
+.main .footer .row-one .socials ul li{
     display: inline-block;
     margin: 5px;
     text-align: center;
     
 }
-.container .footer .row-one .socials ul li a{
+.main .footer .row-one .socials ul li a{
     text-decoration: none;
     font-size: 12pt;
     border-radius: 100%;
-    font-family: Leelawadee;
 
 }
 .fa-facebook-f{
@@ -861,6 +862,7 @@ option{
     margin-right: 5px;
     color: #f54040;
 }
+
 .footer .footer-details{
     padding: 5px;
     display: flex;
@@ -975,49 +977,49 @@ option{
     width:30px;
     margin-top: 5px;
 }
-.container .footer .copyright{
+.main .footer .copyright{
     width: 100%;
     display: block;
     padding: 10px;
 }
-.container .footer .copy-right{
+.main .footer .copy-right{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     min-height: auto;
 }
-.container .footer .copy-right p{
+.main .footer .copy-right p{
     font-size: 10pt;
     text-align: center;
     color: #ffffff;
     font-weight: 400;
 }
-.container .footer .copy-right p span{
+.main .footer .copy-right p span{
     font-size: 10pt;
     text-align: center;
     color: #ffffff;
     font-weight: 600;
 }
-.container .footer .copy-right p a{
+.main .footer .copy-right p a{
     font-size: 10pt;
     text-decoration: none;
     text-align: center;
     color: rgb(220, 225, 230);
     font-weight: 600;
 }
-.container .footer .design{
+.main .footer .design{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.container .footer .design p{
+.main .footer .design p{
     font-size: 10pt;
     text-align: center;
     color: #ffffff;
     font-weight: 400;
     
 }
-.container .footer .design p span{
+.main .footer .design p span{
     font-size: 10pt;
     text-align: center;
     color: #ffffff;
@@ -1064,7 +1066,7 @@ option{
         border-radius: 100%;
     }
     .header .sitename{
-        font-size: 13pt;
+        font-size: 14pt;
         color: #fff;
         cursor: pointer;
         font-weight: 600;
@@ -1163,7 +1165,6 @@ option{
         line-height: 35px;
         margin-bottom: 20px;
         color: #fff;
-        font-family: Leelawadee;
         text-transform: uppercase;
     }
     .home .content .content-text-p{
@@ -1174,7 +1175,6 @@ option{
         color: #ffffff;
         text-align: justify;
         font-weight: lighter;
-        font-family: Leelawadee;
     }
     .home .content .btn{
         align-items: center;
@@ -1189,7 +1189,6 @@ option{
         font-size: 8pt;
         letter-spacing: 2px;
         margin-right: 10px;
-        font-family: Leelawadee;
         box-shadow:0 0 10px #ffffff;
         background-color: rgba(130, 127, 155, 0.55);
     }
@@ -1221,9 +1220,8 @@ option{
     }
     .about .container .about-text p{
         color: black;
-        font-weight: 400;
-        font-family: Leelawadee;
-        font-size: 10pt;
+        font-weight: 500;
+        font-size: 12pt;
     }
     .about .container .about-pictures{
         display: block;
@@ -1240,17 +1238,20 @@ option{
 
     .about .container .about-pictures .image1{
         margin: 5px;
+        margin-top: -30px;
     }
     .about .container .about-pictures .image2{
         margin: 5px;
+        margin-top: -80px;
     }
     .about .container .about-pictures .image .image1 img{
         width: 100%;
         border-radius: 5px;
-        margin-top: -50px;
+        
     }
     .about .container .about-pictures .image .image2 img{
         width: 80%;
+        height: 40vh;
     }
     .about .container .about-pictures p{
         color: black;
@@ -1273,7 +1274,7 @@ option{
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 20px;
-        font-size: 10pt;
+        font-size: 12pt;
     }
     .services .container .service-text p{
         color: #fff;
@@ -1288,15 +1289,14 @@ option{
         margin-right: auto;
     }
     .services .container .serve .dch-service{
-        width: 65%;
-        min-height: 45vh;
+        width: 70%;
+        min-height: 32vh;
         margin: 10px;
         background-color:transparent;
         border-radius: 20px;
         box-shadow: 0 0 8px #8b8b8b;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
         display: block;
     }
     .services .container .serve .dch-service:hover{
@@ -1309,7 +1309,7 @@ option{
     }
     .services .container .serve img{
         width: 100%;
-        min-height: 30vh;
+        min-height: 25vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         margin-bottom: 10px;
@@ -1321,7 +1321,7 @@ option{
         font-weight: 500;
         font-size: 10pt;
         margin-top: 1px;
-        
+        margin-bottom: 20px;
     }
     /*------> Menu <------*/
     .menu{
@@ -1358,8 +1358,8 @@ option{
         text-align: center;
     }
     .menu .container .menu-list .dch-menu{
-        width: 65%;
-        min-height: 35vh;
+        width: 70%;
+        min-height: 20vh;
         margin: 20px;
         background-color: #fff;
         border-radius: 20px;
@@ -1375,7 +1375,7 @@ option{
     }
     .menu .container .menu-list img{
         width: 100%;
-        min-height: 25vh;
+        min-height: 20vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         margin-bottom: 20px;
@@ -1387,6 +1387,8 @@ option{
         text-transform: uppercase;
         font-weight: 500;
         font-size: 10pt;
+        margin-bottom: 20px;
+
     }
 
     /*------> Outdoor catering <------*/
@@ -1398,13 +1400,13 @@ option{
         min-height: auto;
         text-align: center;
     }
+    
     .outdoor-catering .outdoor-first p{
         flex-basis: 60%;
         text-align: justify;
         font-size: 10pt;
         font-weight: lighter;
         color: #ffffff;
-        font-family: Leelawadee;
     }
     .outdoor-catering .outdoor-second p{
         flex-basis: 100%;
@@ -1412,7 +1414,6 @@ option{
         font-size: 10pt;
         font-weight: lighter;
         color: #ffffff;
-        font-family: Leelawadee;
     }
     .outdoor-catering .outdoor-second p span{
         color:#f54040;
@@ -1430,6 +1431,7 @@ option{
         width: 80%;
         height: 200px;
         margin-left: auto;
+        margin-bottom: 15px;
     }
     /*------> Contact Us <-------*/
     .contact{
@@ -1534,7 +1536,6 @@ option{
         font-size: 8pt;
         letter-spacing: 2px;
         width: 100%;
-        font-family: Leelawadee;
     }
     textarea{
         width: 100%;
@@ -1587,19 +1588,16 @@ option{
         font-size: 11pt;
         font-weight: 500;
         padding: 8px;
-        font-family: Leelawadee;
     }
     .contact .container .myform .form input[type="email"]{
         font-size: 11pt;
         font-weight: 500;
         padding: 8px;
-        font-family: Leelawadee;
     }
     .contact .container .myform .form input[type="tel"]{
         font-size: 11pt;
         font-weight: 500;
         padding: 8px;
-        font-family: Leelawadee;
     }
     select{
         padding:6px;
@@ -1626,21 +1624,21 @@ option{
         font-size: 10pt;
     }
         /*------> footer <------*/
-    .container .footer .row-one{
+    .main .footer .row-one{
         width: 100%;
         display: block;
         padding: 10px;
         height: 10vh;
     }
-    .container .footer .row-one .sitename{
+    .main .footer .row-one .sitename{
         flex-basis: 50%;
         margin-top: auto;
         margin-bottom: auto;
         min-height: auto;
         text-align: center;
     }
-    .container .footer .row-one .sitename h6{
-        font-size: 12pt;
+    .main .footer .row-one .sitename h6{
+        font-size: 14pt;
         color: #ffffff;
         cursor: pointer;
         font-weight: 600;
@@ -1649,30 +1647,29 @@ option{
         margin-bottom: auto;
         padding: 10px;
     }
-    .container .footer .row-one .sitename h6 span{
+    .main .footer .row-one .sitename h6 span{
         color: #f54040;
     }
-    .container .footer .row-one .socials{
+    .main .footer .row-one .socials{
         margin-left: auto;
         margin-right: auto;
         min-height: 100%;
     }
-    .container .footer .row-one .socials ul{
+    .main .footer .row-one .socials ul{
         margin-left: -30px;
-        margin-top: -10px;
+        margin-top: 3px;
         text-align: center;
     }
-    .container .footer .row-one .socials ul li{
+    .main .footer .row-one .socials ul li{
         display: inline-block;
         margin: 1px;
         text-align: center;
         margin: 3px;
     }
-    .container .footer .row-one .socials ul li a{
+    .main .footer .row-one .socials ul li a{
         text-decoration: none;
-        font-size: 6pt;
+        font-size: 10pt;
         border-radius: 100%;
-        font-family: Leelawadee;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1827,7 +1824,6 @@ option{
         font-weight: 500;
         color: #ffffff;
         text-align: center;
-        font-family: Leelawadee;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: -2px;
@@ -1842,49 +1838,50 @@ option{
         margin-left: auto;
         margin-right: auto;
     }
-    .container .footer .copyright{
+    .main .footer .copyright{
         width: 100%;
         display: block;
         padding: 10px;
     }
-    .container .footer .copy-right{
-        width: 50%;
+    .main .footer .copy-right{
+        width: 100%;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
         min-height: auto;
     }
-    .container .footer .copy-right p{
+    .main .footer .copy-right p{
         font-size: 10pt;
         text-align: center;
         color: #ffffff;
         font-weight: 400;
     }
-    .container .footer .copy-right p span{
+    .main .footer .copy-right p span{
         font-size: 10pt;
         text-align: center;
         color: #ffffff;
         font-weight: 600;
     }
-    .container .footer .copy-right p a{
+    .main .footer .copy-right p a{
         font-size: 10pt;
         text-decoration: none;
         text-align: center;
         color: rgb(220, 225, 230);
         font-weight: 600;
     }
-    .container .footer .design{
+    .main .footer .design{
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
-    .container .footer .design p{
+    .main .footer .design p{
         font-size: 10pt;
         text-align: center;
         color: #ffffff;
         font-weight: 400;
         
     }
-    .container .footer .design p span{
+    .main .footer .design p span{
         font-size: 10pt;
         text-align: center;
         color: #ffffff;
@@ -1901,7 +1898,7 @@ option{
         color: #ffffff;
         cursor: pointer;
         margin-right: 10px;
-        font-size: 16pt;
+        font-size: 18pt;
     }
     .section{
         min-height: auto;
@@ -2026,7 +2023,6 @@ option{
         line-height: 35px;
         margin-bottom: 10px;
         color: #fff;
-        font-family: Leelawadee;
         text-transform: uppercase;
     }
     .home .content .content-text-p{
@@ -2051,7 +2047,6 @@ option{
         font-size: 8pt;
         letter-spacing: 2px;
         margin-right: 10px;
-        font-family: Leelawadee;
         box-shadow:0 0 10px #ffffff;
         background-color: rgba(130, 127, 155, 0.55);
     }
@@ -2084,8 +2079,7 @@ option{
     .about .container .about-text p{
         color: black;
         font-weight: 400;
-        font-family: Leelawadee;
-        font-size: 10pt;
+        font-size: 12pt;
     }
     .about .container .about-pictures{
         display: block;
@@ -2107,12 +2101,12 @@ option{
         margin: 5px;
     }
     .about .container .about-pictures .image .image1 img{
-        width: 100%;
+        width: 80%;
         border-radius: 5px;
-        margin-top: -50px;
+        margin-top: -30px;
     }
     .about .container .about-pictures .image .image2 img{
-        width: 80%;
+        width: 60%;
     }
     .about .container .about-pictures p{
         color: black;
@@ -2139,7 +2133,7 @@ option{
     .services .container .service-text p{
         color: #fff;
         font-weight: 400;
-        font-size: 10pt;
+        font-size: 12pt;
     }
     .services .container .serve{
         display: flex;
@@ -2207,7 +2201,8 @@ option{
     .menu .container .menu-text p{
         color: black;
         font-weight: 400;
-        font-size: 10pt;
+        font-size: 12pt;
+        font-style: italic;
     }
     .menu .container .menu-list{
         display: flex;
@@ -2263,13 +2258,16 @@ option{
         min-height: auto;
         text-align: center;
     }
+    .outdoor-catering .outdoor-first {
+        margin-bottom: 10px;
+    }
     .outdoor-catering .outdoor-first p{
         flex-basis: 60%;
         text-align: justify;
         font-size: 10pt;
         font-weight: lighter;
         color: #ffffff;
-        font-family: Leelawadee;
+        
     }
     .outdoor-catering .outdoor-second p{
         flex-basis: 100%;
@@ -2277,7 +2275,7 @@ option{
         font-size: 10pt;
         font-weight: lighter;
         color: #ffffff;
-        font-family: Leelawadee;
+        
     }
     .outdoor-catering .outdoor-second p span{
         color:#f54040;
@@ -2319,7 +2317,7 @@ option{
         color: black;
         font-weight: 400;
         text-align: justify;
-        font-size: 10pt;
+        font-size: 12pt;
     }
     .contact .container .myform{
         display: block;
@@ -2400,7 +2398,6 @@ option{
         font-size: 8pt;
         letter-spacing: 2px;
         width: 50%;
-        font-family: Leelawadee;
     
     }
     .contact .container .myform .form .row-2 .col-2 .fas{
@@ -2451,19 +2448,19 @@ option{
         font-size: 11pt;
         font-weight: 500;
         padding: 8px;
-        font-family: Leelawadee;
+        
     }
     .contact .container .myform .form input[type="email"]{
         font-size: 11pt;
         font-weight: 500;
         padding: 8px;
-        font-family: Leelawadee;
+       
     }
     .contact .container .myform .form input[type="tel"]{
         font-size: 11pt;
         font-weight: 500;
         padding: 8px;
-        font-family: Leelawadee;
+        
     }
     select{
         padding:6px;
@@ -2490,20 +2487,20 @@ option{
         font-size: 10pt;
     }
         /*------> footer <------*/
-    .container .footer .row-one{
+    .main .footer .row-one{
         width: 100%;
         display: flex;
         padding: 10px;
         height: 10vh;
     }
-    .container .footer .row-one .sitename{
+    .main .footer .row-one .sitename{
         flex-basis: 50%;
         margin-top: auto;
         margin-bottom: auto;
         min-height: auto;
     }
-    .container .footer .row-one .sitename h6{
-        font-size: 12pt;
+    .main .footer .row-one .sitename h6{
+        font-size: 14pt;
         color: #ffffff;
         cursor: pointer;
         font-weight: 600;
@@ -2512,21 +2509,21 @@ option{
         margin-bottom: auto;
         padding: 10px;
     }
-    .container .footer .row-one .sitename h6 span{
+    .main .footer .row-one .sitename h6 span{
         color: #f54040;
     }
-    .container .footer .row-one .socials{
+    .main .footer .row-one .socials{
         flex-basis: 50%;
         margin: 0 auto;
         min-height: 100%;
 
     }
-    .container .footer .row-one .socials ul{
+    .main .footer .row-one .socials ul{
         margin: 0 auto;
         text-align: right;
         padding-right: 5px;
     }
-    .container .footer .row-one .socials ul li{
+    .main .footer .row-one .socials ul li{
         display: inline-block;
         margin: 1px;
         text-align: center;
@@ -2534,11 +2531,10 @@ option{
         margin-top: 5px;
 
     }
-    .container .footer .row-one .socials ul li a{
+    .main .footer .row-one .socials ul li a{
         text-decoration: none;
         font-size: 10pt;
         border-radius: 100%;
-        font-family: Leelawadee;
         margin: 0 auto;
     }
     .fa-facebook-f{
@@ -2692,7 +2688,6 @@ option{
         font-weight: 500;
         color: #ffffff;
         text-align: left;
-        font-family: Leelawadee;
         letter-spacing: 1px;
         text-transform: uppercase;
 
@@ -2756,7 +2751,7 @@ option{
     
 }
 /*LAPTOPS/SMALL SCREEN*/
-@media (min-width: 769px) and (max-width:994px) {
+@media (min-width: 800px) and (max-width:994px){
     .navBtn{
         display: block;
         color: #ffffff;
@@ -2844,7 +2839,6 @@ option{
         font-size: 8pt;
         letter-spacing: 2px;
         margin-right: 10px;
-        font-family: Leelawadee;
         box-shadow:0 0 10px #ffffff;
         background-color: rgba(130, 127, 155, 0.55);
     }
@@ -2875,7 +2869,172 @@ option{
         border-radius: 5px;
     }
     .about .container .about-pictures .image .image2 img{
-        width: 90%;
+        width: 100%;
+        height: 300px;
+    }
+    /*------> Services <------*/
+    .services .container .service-text{
+        width: 100%;
+    } 
+    .services .container .serve{
+        width: 60%;
+        flex-wrap: wrap;
+    }   
+    .services .container .serve .dch-service{
+        flex-basis: 48%;
+        height: 40vh;
+    }  
+    /*------> Menu <------*/
+    .menu .container .menu-list{
+        width: 60%;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .menu .container .menu-list .dch-menu{
+        flex-basis: 45%;
+        height: 40vh;
+        margin-bottom: 30px;
+    } 
+    /*------> Outdoor catering <------*/
+    .outdoor-catering .outdoor-first img{
+        height: 50vh;
+    }
+    .contact .container .contact-text{
+        width: 100%;
+    }
+    .contact .container .myform{
+        display: block;
+    }
+    .contact .container .myform .form-img img{
+        width: 30%;
+        height: 40vh;
+    }
+    .contact .container .myform .form{
+        margin-top: -40px;
+    }
+    
+}
+/*LAPTOPS/SMALL SCREEN*/
+@media (min-width: 769px) and (max-width:799px) {
+    .navBtn{
+        display: block;
+        color: #ffffff;
+        margin-right: 10px;
+        font-size: 16pt;
+    }
+   
+    /*------> HEADING <------*/
+    .header .sitename{
+        font-size: 16pt;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 600;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .header .sitename span{
+        color: #f54040;
+        font-weight: 650;
+    }
+    .header .navmenu{
+        align-items: center;
+        text-align: center;
+        display: none;
+        position: absolute;
+        justify-content: center;
+        margin-left:auto;
+        margin-right: auto;
+        padding-right: 10px;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        transition: 0.15s ease-in-out;    
+    }
+    .header.active{
+        right: 0;
+    }
+    .header .navmenu ul{
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 100%;
+        margin-left: -5px;
+        top: 30px;
+        padding:10px;
+        background-image: linear-gradient(rgba(130, 127, 155, 0.55),rgba(130, 127, 155, 0.55)), url(../images/header.png);
+        
+    }
+    .header .navmenu ul li{
+        display: block;
+        margin: 10px;
+        text-align: left;
+        padding: 5px;
+    }
+    .header .navmenu ul li a{
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 8pt;
+        letter-spacing: 2px;
+        color: #ffffff;
+    }
+    .active{
+        background-color: transparent;
+        padding: 8px 20px;
+        border-radius: 50px;
+        box-shadow: 0 0 5px #ffffff;
+    }
+    
+    /*-----> home <------*/
+    .home .content{
+        margin-top: 100px;
+    }
+    .home .content .btn{
+        align-items: center;
+        outline: 0;
+        border-radius: 50px;
+        border: none;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 8pt;
+        letter-spacing: 2px;
+        margin-right: 10px;
+        box-shadow:0 0 10px #ffffff;
+        background-color: rgba(130, 127, 155, 0.55);
+    }
+    .home .content .btn:hover{
+        color:#fff;
+        background-color: #f54040;
+        box-shadow:0 0 20px #ffffff;
+        border: none;
+    }
+    /*------> About <------*/
+    .about .container .about-text{
+        width: 100%;
+    }
+    .about .container .about-pictures{
+        width: 100%;
+        display: block;
+    }
+    .about .container .about-pictures .image1{
+        flex-basis: 50%;
+        margin-top: 30px;
+    }
+    .about .container .about-pictures .image2{
+        flex-basis: 50%;
+        padding: 10px;
+    }
+    .about .container .about-pictures .image .image1 img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .about .container .about-pictures .image .image2 img{
+        width: 100%;
         height: 300px;
     }
     /*------> Services <------*/
@@ -2925,17 +3084,19 @@ option{
 @media (min-width:995px) and (max-width:1200px) {
     .navBtn{
         display: none;
-        color: teal;
+        color: pink;
     }
-    .container .header .sitename{
-        font-size: 18pt;
+    .main .header .sitename{
+        font-size: 16pt;
         margin-top: auto;
         margin-bottom: auto;
+        flex-basis: 40%;
     }
-    .container .header .navmenu{
-        flex-basis: 65%;
+    .main .header .navmenu{
+        display: block;
+        flex-basis: 70%;
     }
-    .container .header .navmenu ul{
+    .main .header .navmenu ul{
         text-align: right;
         margin-left: 5px;
         margin-right: auto;
@@ -2963,7 +3124,6 @@ option{
         font-size: 8pt;
         letter-spacing: 2px;
         margin-right: 10px;
-        font-family: Leelawadee;
         box-shadow:0 0 10px #ffffff;
         background-color: rgba(130, 127, 155, 0.55);
     }
